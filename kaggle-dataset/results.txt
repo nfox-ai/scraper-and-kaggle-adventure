@@ -1,0 +1,230 @@
+Unique NOCs in top3:  20
+Frequency table of placing in top3
+     freq
+NOC      
+USA    31
+GER    13
+URS     9
+RUS     8
+GBR     6
+SWE     6
+CHN     4
+FRA     4
+NOR     4
+GDR     4
+CAN     3
+FRG     2
+GRE     2
+AUS     2
+FIN     2
+BUL     1
+ROU     1
+EUN     1
+ITA     1
+HUN     1
+
+ ------- 
+
+Unique NOCs in top1: 9
+Frequency table of placing in top1
+     freq
+NOC      
+USA    16
+URS     7
+GER     5
+FRA     2
+GRE     1
+GBR     1
+SWE     1
+EUN     1
+RUS     1
+
+ ------- 
+
+2016 (most recent in the dataset) total medals data
+     NOC  Medal
+198  USA    121
+38   CHN     70
+68   GBR     67
+159  RUS     56
+72   GER     42
+64   FRA     42
+97   JPN     41
+10   AUS     29
+93   ITA     28
+33   CAN     22
+
+ ------- 
+
+Total medals earned by gender 1896-2016
+  Sex  Medal
+0   F  11253
+1   M  28530
+
+ ------- 
+
+Sex  Year      F       M
+0    1896    0.0   143.0
+1    1900   13.0   591.0
+2    1904   10.0   476.0
+3    1906    6.0   452.0
+4    1908   16.0   815.0
+5    1912   30.0   911.0
+6    1920   44.0  1264.0
+7    1924   52.0   910.0
+8    1928  103.0   720.0
+9    1932   68.0   671.0
+10   1936   97.0   928.0
+11   1948  116.0   871.0
+12   1952  158.0   875.0
+13   1956  171.0   872.0
+14   1960  195.0   863.0
+15   1964  246.0   969.0
+16   1968  261.0   995.0
+17   1972  295.0  1119.0
+18   1976  440.0  1091.0
+19   1980  485.0  1117.0
+20   1984  548.0  1150.0
+21   1988  617.0  1228.0
+22   1992  691.0  1339.0
+23   1994  108.0   223.0
+24   1996  764.0  1078.0
+25   1998  189.0   251.0
+26   2000  880.0  1124.0
+27   2002  208.0   270.0
+28   2004  898.0  1103.0
+29   2006  231.0   295.0
+30   2008  932.0  1116.0
+31   2010  229.0   291.0
+32   2012  918.0  1023.0
+33   2014  265.0   332.0
+34   2016  969.0  1054.0
+
+ ------- 
+
+Year - number of participants
+    Year     ID
+0   1896    176
+1   1900   1224
+2   1904    650
+3   1906    841
+4   1908   2024
+5   1912   2409
+6   1920   2676
+7   1924   3565
+8   1928   3703
+9   1932   2174
+10  1936   5142
+11  1948   5068
+12  1952   5622
+13  1956   4167
+14  1960   6017
+15  1964   6230
+16  1968   6717
+17  1972   8122
+18  1976   7200
+19  1980   6330
+20  1984   8067
+21  1988   9873
+22  1992  11183
+23  1994   1738
+24  1996  10339
+25  1998   2179
+26  2000  10647
+27  2002   2399
+28  2004  10557
+29  2006   2494
+30  2008  10899
+31  2010   2536
+32  2012  10517
+33  2014   2745
+34  2016  11179
+
+ ------- 
+
+Basic statistical summary of medal groups by age
+level_1   25%   50%   75%    count   max       mean   min       std
+Medal                                                              
+Bronze   22.0  25.0  29.0  13006.0  72.0  25.879210  10.0  5.831923
+Gold     22.0  25.0  29.0  13224.0  64.0  25.901013  13.0  5.892887
+Silver   22.0  25.0  29.0  12821.0  73.0  25.996724  11.0  6.017395
+
+Table of medals by age
+Medal   Age  Bronze  Gold  Silver
+0      10.0       1     0       0
+1      11.0       0     0       1
+2      12.0       3     0       3
+3      13.0       2     7       7
+4      14.0      18    27      30
+..      ...     ...   ...     ...
+56     68.0       0     0       2
+57     69.0       1     0       1
+58     71.0       1     0       1
+59     72.0       1     0       1
+60     73.0       0     0       1
+
+[61 rows x 4 columns]
+
+ ------- 
+
+Basic statistical summary of height historically
+count     86.000000
+mean     178.523256
+std       25.010928
+min      136.000000
+25%      157.250000
+50%      178.500000
+75%      199.750000
+max      223.000000
+Name: Height, dtype: float64
+
+Medals by height
+    Height  Medal
+0    136.0      5
+1    137.0      2
+2    138.0      1
+3    139.0      4
+4    140.0      7
+..     ...    ...
+81   217.0      4
+82   218.0      6
+83   219.0      1
+84   220.0      3
+85   223.0      4
+
+[86 rows x 2 columns]
+
+ ------- 
+
+Top 10 sports in terms of short people participation ratio historically
+                        Sport  Total athletes  Short athletes     ratio
+6                   Wrestling            4988             219  0.043905
+16                       Judo            2724             121  0.044420
+36           Freestyle Skiing             626              29  0.046326
+35               Table Tennis             749              38  0.050734
+41  Short Track Speed Skating             444              27  0.060811
+26                     Diving            1466             134  0.091405
+25             Figure Skating            1572             166  0.105598
+14              Weightlifting            2882             329  0.114157
+48               Trampolining              93              11  0.118280
+9                  Gymnastics            4134             691  0.167150
+
+ ------- 
+
+Example of name-id list, first 50 results
+                                       Name      ID
+3                      Edgar Lindenau Aabye       4
+37                     Arvo Ossian Aaltonen      15
+40                 Juhamatti Tapio Aaltonen      16
+41                  Paavo Johannes Aaltonen      17
+60                       Kjetil Andr Aamodt      20
+...                                     ...     ...
+271046                   Krzysztof Zwoliski  135544
+271048                      Henk Jan Zwolle  135545
+271076  Galina Ivanovna Zybina (-Fyodorova)  135553
+271082                         Bogusaw Zych  135554
+271102            Olesya Nikolayevna Zykina  135563
+
+[28251 rows x 2 columns]
+
+
