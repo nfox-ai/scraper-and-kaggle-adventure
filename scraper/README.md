@@ -2,7 +2,7 @@
 
 Basic HTML-scraping script utilizing  [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/).
 
-Extracted URLs pointing to targe site of interest found in result.csv.
+Extracted URLs pointing to target site of interest found in result.csv.
 
 
 Usage:
