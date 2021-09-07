@@ -25,7 +25,7 @@ with open('keywords.txt', 'r', encoding = 'UTF-8') as f:
 # Overwrite previous links file & get the handle
 links_file = open("links.csv", "w")
 # Write column header
-links_file.write('"URL"\n')
+links_file.write('"URL",\n')
 # Overwrite previous result : keyword file & get the handle
 results_file = open("results.csv", "w")
 # Write column header
@@ -39,7 +39,7 @@ def getSearchPageURL(soup):
     for link in soup.find_all('a', href = True):
         url = link['href']
         if url[:36] == 'https://www.searchenginejournal.com/':
-            links_file.write(url + '\n')
+            links_file.write(url + ',\n')
 
 # Parse the page looking for 'result-stats' div to obtain total amount of
 # indexed pages related to the search & save to file
